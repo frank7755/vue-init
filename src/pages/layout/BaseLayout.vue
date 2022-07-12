@@ -15,13 +15,6 @@
                             </el-icon>
                             <span>Navigator One</span>
                         </template>
-                        <el-menu-item-group title="Group One">
-                            <el-menu-item index="1-1">item one</el-menu-item>
-                            <el-menu-item index="1-2">item one</el-menu-item>
-                        </el-menu-item-group>
-                        <el-menu-item-group title="Group Two">
-                            <el-menu-item index="1-3">item three</el-menu-item>
-                        </el-menu-item-group>
                         <el-sub-menu index="1-4">
                             <template #title>item four</template>
                             <el-menu-item index="1-4-1">item one</el-menu-item>
@@ -127,9 +120,6 @@ import Bread from '@/components/breadcrumb/Bread.vue'
     border: none;
 }
 
-.el-main {
-    background-color: #f6f6f6;
-}
 
 .content {
     background-color: #fff;

@@ -33,6 +33,9 @@
 <script setup lang='ts'>
 import { reactive, ref } from 'vue';
 import type { FormInstance } from 'element-plus'
+import { login } from '@/service/login'
+
+console.log(login(), 'login')
 
 const formRef = ref<FormInstance>()
 

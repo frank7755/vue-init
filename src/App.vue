@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router';
-
 </script>
 
 <template>
@@ -55,8 +54,7 @@ p {
 /* 滚动条滑块 */
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: rgba(93, 94, 111, 0.1);
   -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
-  background: var(--el-color-primary-light-8);
+  background: #f4d16e;
 }
 </style>
